@@ -1,16 +1,17 @@
 pipeline {
 
     agent any
-    
+
     stages {
 
         stage('Build') {
 
             steps {
 
-                echo "Build started from webhook"
+                echo "Building MAIN branch"
 
             }
+
         }
 
 
@@ -18,9 +19,12 @@ pipeline {
 
             steps {
 
-                echo "Deploying application"
+                echo "Deploying Production"
 
             }
+
         }
+
     }
+
 }
