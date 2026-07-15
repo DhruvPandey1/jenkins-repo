@@ -4,11 +4,12 @@ pipeline {
 
     stages {
 
+
         stage('Build') {
 
             steps {
 
-                echo "Building MAIN branch"
+                echo "Building DEV branch"
 
             }
 
@@ -19,11 +20,12 @@ pipeline {
 
             steps {
 
-                echo "Deploying Production"
+                echo "Deploying Testing Environment"
 
             }
 
         }
+
 
     }
 
