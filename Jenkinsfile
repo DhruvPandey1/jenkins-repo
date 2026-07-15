@@ -1,9 +1,5 @@
 pipeline {
     agent any
-<<<<<<< HEAD
-
-=======
->>>>>>> 915a1f5 (test deploy)
 
     environment{
         AWS_REGION='us-east-1'
