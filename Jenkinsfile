@@ -17,7 +17,7 @@ pipeline {
             steps{
                 sh """
                     docker build \
-                    -t nginx-image:${BUILD_NUMBER}
+                    -t nginx-image:${BUILD_NUMBER} \
                     -t nginx-image:latest .
                 """
             }
